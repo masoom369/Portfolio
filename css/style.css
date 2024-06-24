@@ -123,6 +123,8 @@ h2 {
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: mediumaquamarine;
+    align-items: center;
+    justify-content: center;
 }
 
 .contact {
@@ -142,18 +144,23 @@ h2 {
     justify-content: space-around;
 }
 
-@media (max-width: 767.98px) {
+/* @media (max-width: 767.98px) {
     .card-container {
         flex-direction: column;
+       margin-right: 25px !important;
     }
-}
+} */
 
 .card {
     text-decoration: none !important;
     color: black !important;
 }
 
-.img{
+.img {
     height: 300px !important;
     width: 600px;
+}
+
+.card-width {
+    width: 25rem;
 }
